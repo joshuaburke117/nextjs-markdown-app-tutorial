@@ -69,7 +69,7 @@ export default function Login(){
                     }} className="card-button-secondary">
                         <small>{isRegister?'Log in' : 'Sign up'}</small>
                     </button>
-                    <button className="card-button-secondary">
+                    <button onClick={() => router.push('/passwordReset')} className="card-button-secondary">
                         <small>Forgot password?</small>
                     </button>
                 </div>
