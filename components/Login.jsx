@@ -50,13 +50,13 @@ export default function Login(){
                 <h6 className="font-2p text-white">{isRegister? 'Create an account' : 'Log in'}</h6>
                 <div>
                     <p className="text-white">Email</p>
-                    <input className="text-white w-full p-0.75" value={email} onChange={(e) => {
+                    <input className="text-black bg-white w-full p-0.75" value={email} onChange={(e) => {
                         setEmail(e.target.value)
                     }} type = "text" placeholder="Enter your email address"/>
                 </div>
                 <div>
                     <p className="text-white">Password</p>
-                    <input className="text-white w-full p-0.75" value={password} onChange={(e) => {
+                    <input className="text-black bg-white w-full p-0.75" value={password} onChange={(e) => {
                         setPassword(e.target.value)
                     }}type = "password" placeholder="************"/>
                 </div>
