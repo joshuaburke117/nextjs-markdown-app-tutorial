@@ -22,5 +22,13 @@ learnt about state variables, and how children elemets interact with them
 learnt about event listeners and how to implement them, and configure them
 learnt how to implment firebase authentication, and firebase database
 and how to deploy a web application onto the web
-i also learnt how to keep api keys safe using .env files
+learnt how to keep api keys safe using .env files
+learnt how to taylor content to the size of the device, this includes hiding content when not needed, pinning content when the page gets big
+
+
+##what the project looks like
+login page
+![login page](/login.png "loginpage")
+markdown veiwer 
+![markdown veiwer](/markdownviewer.png "markdown veiwer ")
 
