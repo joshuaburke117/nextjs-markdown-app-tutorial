@@ -28,7 +28,7 @@ learnt how to taylor content to the size of the device, this includes hiding con
 
 ##what the project looks like
 login page
-![login page](/login.png "loginpage")
+![login page](login.png "loginpage")
 markdown veiwer 
-![markdown veiwer](/markdownviewer.png "markdown veiwer ")
+![markdown veiwer](markdownviewer.png "markdown veiwer ")
 
