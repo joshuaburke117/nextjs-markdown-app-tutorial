@@ -1,10 +1,3 @@
-#Things i still want to do
-Custom file names
-Search filter in side nav for documents
-Create a more comprehensive landing page
-Manage login error states with appropriate conditionally rendered error messages
-
-
 # about this project
 this markdown notes app was created from a tutorial from [smoljames]("https://smoljames.com/")
 after completing his tutorial i continued on and restyled the project using tailwind css
@@ -32,3 +25,9 @@ login page
 markdown veiwer 
 ![markdown veiwer](public/markdownviewer.png "markdown veiwer ")
 
+
+# Things i still want to do
+Custom file names
+Search filter in side nav for documents
+Create a more comprehensive landing page
+Manage login error states with appropriate conditionally rendered error messages
