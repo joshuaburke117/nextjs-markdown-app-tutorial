@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head />
       <AuthProvider>
-        <body className="flex flex-col min-h-screen bg-green-800/70">
+        <body className="flex flex-col min-h-screen bg-background-colour">
           <div id="app">{children}</div>
           <div id="portal"></div>
           

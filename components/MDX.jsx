@@ -12,9 +12,9 @@ hello world
 [click me](https://www.google.com)
     `
     return (
-        <section className="mdx-container">
+        <section className="p-4 flex flex-col gap-2 flex-1 md:col-span-2 lg:col-span-3">
             <TopNav {...props}/>
-            <article>
+            <article className="typography">
                 <Markdown>
                     {text.trim() || 'Hop in the editor to create a new note'}
                 </Markdown>

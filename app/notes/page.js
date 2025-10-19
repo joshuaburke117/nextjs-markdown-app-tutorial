@@ -111,7 +111,7 @@ export default function NotesPage() {
     }
 
     return(
-        <main id="notes">
+        <main className="relative grid grid-cols-1 flex-1 max-w-[1440px] w-full mx-auto gap-1 md:grid-cols-3 md:flex-1 lg:grid-cols-4">
             <SideNav setIsViewer={setIsViewer} handleCreateNote={handleCreateNote} noteIds={noteIds} setNoteIds={setNoteIds} showNav={showNav} setShowNav={setShowNav}/>
             {!isViewer &&(
                 <Editor savingNote={savingNote}

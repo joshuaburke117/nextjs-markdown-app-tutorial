@@ -4,4 +4,26 @@
 
 @theme {
     --font-2p: "Press Start 2P", serif;
+    --color-background-colour: #488c4a;
+    --color-delete-colour: #ff4e7a;
+}
+
+@layer components {
+  .typography {
+    font-family: var(--font-2p);
+    p {
+      font-size: var(--text-base);
+      color: var(--color-gray-700);
+    }
+    h1 {
+      font-size: var(--text-4xl--line-height);
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-gray-950);
+    }
+    h2 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-semibold);
+      color: var(--color-gray-950);
+    }
+  }
 }
