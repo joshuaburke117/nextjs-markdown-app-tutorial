@@ -1,4 +1,4 @@
-#Todo
+#Things i still want to do
 Custom file names
 Search filter in side nav for documents
 Create a more comprehensive landing page
