@@ -4,7 +4,7 @@ import { sendPasswordResetEmail } from "firebase/auth";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export default function passwordReset(){
+export default function PasswordReset(){
     const [email, setEmail] = useState('')
     const [isReseting, setIsReseting] = useState(false)
 
